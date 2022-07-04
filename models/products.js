@@ -6,6 +6,7 @@ const Products = (sequelize, DataTypes) => {
       primaryKey: true
     },
     name: DataTypes.STRING,
+    category: DataTypes.STRING,
     value: DataTypes.DECIMAL,
     image: DataTypes.STRING,
 

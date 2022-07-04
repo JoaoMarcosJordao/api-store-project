@@ -6,16 +6,16 @@ module.exports = {
     'Categories',
     [
       {
-        name: 'PC Gamer',
+        title: 'PC Gamer',
       },
       {
-        name: 'Periféricos',
+        title: 'Periféricos',
       },
       {
-        name: 'Monitor Gamer',
+        title: 'Monitor Gamer',
       },
       {
-        name: 'Escritório',
+        title: 'Escritório',
       }
     ], {});
   },

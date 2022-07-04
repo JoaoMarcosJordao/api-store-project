@@ -6,7 +6,7 @@ module.exports = {
         type: Sequelize.INTEGER,
         references: {
           model: 'Categories',
-          key: 'category_id',
+          key: 'id',
         },
         onDelete: 'CASCADE',
         primaryKey: true,
