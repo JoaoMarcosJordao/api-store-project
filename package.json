@@ -1,0 +1,31 @@
+{
+  "name": "api-store-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaoMarcosJordao/api-store-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoaoMarcosJordao/api-store-project/issues"
+  },
+  "homepage": "https://github.com/JoaoMarcosJordao/api-store-project#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "eslint": "^8.19.0",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.18",
+    "sequelize": "^6.21.2",
+    "sequelize-cli": "^6.4.1"
+  }
+}
